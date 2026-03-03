@@ -23,7 +23,6 @@ orders = pd.DataFrame({
 })
 
 
-
 burst_user = random.choice(users["user_id"].tolist())
 burst_orders = pd.DataFrame({
     "order_id": range(n_orders+1, n_orders+21),
