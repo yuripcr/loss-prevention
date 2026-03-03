@@ -1,0 +1,501 @@
+user_id,signup_date,city
+1,2023-04-13,Belo Horizonte
+2,2023-12-15,Rio
+3,2023-09-28,São Paulo
+4,2023-04-17,Curitiba
+5,2023-03-13,Curitiba
+6,2023-07-08,Curitiba
+7,2023-01-21,Belo Horizonte
+8,2023-04-13,Curitiba
+9,2023-05-02,Curitiba
+10,2023-08-03,Curitiba
+11,2023-11-27,Rio
+12,2023-03-29,Belo Horizonte
+13,2023-04-10,Curitiba
+14,2023-12-26,São Paulo
+15,2023-06-01,São Paulo
+16,2023-05-11,São Paulo
+17,2023-05-30,Belo Horizonte
+18,2023-11-05,Belo Horizonte
+19,2023-09-15,São Paulo
+20,2023-12-10,Curitiba
+21,2023-10-21,Belo Horizonte
+22,2023-07-11,São Paulo
+23,2023-10-04,São Paulo
+24,2023-06-10,Curitiba
+25,2023-11-10,Rio
+26,2023-01-22,Belo Horizonte
+27,2023-09-10,Curitiba
+28,2023-08-24,São Paulo
+29,2023-12-11,São Paulo
+30,2023-02-18,Curitiba
+31,2023-02-28,Belo Horizonte
+32,2023-06-19,Rio
+33,2023-07-07,Rio
+34,2023-09-28,São Paulo
+35,2023-07-09,Belo Horizonte
+36,2023-06-24,Rio
+37,2023-02-20,Belo Horizonte
+38,2023-12-30,Belo Horizonte
+39,2023-02-24,São Paulo
+40,2023-09-01,Rio
+41,2023-11-16,Curitiba
+42,2023-05-11,São Paulo
+43,2023-11-03,Rio
+44,2023-05-15,Rio
+45,2023-01-21,Rio
+46,2023-11-25,Rio
+47,2023-06-16,Rio
+48,2023-10-01,Belo Horizonte
+49,2023-03-30,São Paulo
+50,2023-11-12,Belo Horizonte
+51,2023-01-14,Curitiba
+52,2023-08-30,Rio
+53,2023-09-22,São Paulo
+54,2023-12-12,Rio
+55,2023-02-22,São Paulo
+56,2023-12-06,Belo Horizonte
+57,2023-04-02,São Paulo
+58,2023-09-21,Curitiba
+59,2023-02-04,Curitiba
+60,2023-07-25,São Paulo
+61,2023-03-22,São Paulo
+62,2023-02-19,São Paulo
+63,2023-12-26,São Paulo
+64,2023-01-02,Curitiba
+65,2023-02-23,Rio
+66,2023-04-16,São Paulo
+67,2023-09-17,São Paulo
+68,2023-11-06,Curitiba
+69,2023-07-10,Curitiba
+70,2023-08-06,Belo Horizonte
+71,2023-02-13,São Paulo
+72,2023-06-11,Belo Horizonte
+73,2023-07-21,Curitiba
+74,2023-09-27,Curitiba
+75,2023-12-17,Rio
+76,2023-10-31,São Paulo
+77,2023-09-28,Belo Horizonte
+78,2023-08-03,Curitiba
+79,2023-09-09,Curitiba
+80,2023-07-09,Belo Horizonte
+81,2023-10-23,Rio
+82,2023-08-01,Curitiba
+83,2023-07-27,São Paulo
+84,2023-08-25,Curitiba
+85,2023-12-04,São Paulo
+86,2023-02-22,Belo Horizonte
+87,2023-10-07,São Paulo
+88,2023-08-05,Belo Horizonte
+89,2023-09-09,São Paulo
+90,2023-07-07,Belo Horizonte
+91,2023-02-10,São Paulo
+92,2023-06-06,Rio
+93,2023-01-15,São Paulo
+94,2023-10-28,São Paulo
+95,2023-03-06,Rio
+96,2023-12-11,Curitiba
+97,2023-11-23,Curitiba
+98,2023-01-09,São Paulo
+99,2023-12-10,Rio
+100,2023-05-09,São Paulo
+101,2023-05-16,Belo Horizonte
+102,2023-03-04,Belo Horizonte
+103,2023-05-19,São Paulo
+104,2023-03-22,Curitiba
+105,2023-06-12,Curitiba
+106,2023-10-16,São Paulo
+107,2023-09-18,São Paulo
+108,2023-08-19,Belo Horizonte
+109,2023-02-10,Curitiba
+110,2023-01-28,São Paulo
+111,2023-05-15,Belo Horizonte
+112,2023-07-20,Curitiba
+113,2023-11-24,Rio
+114,2023-09-25,Belo Horizonte
+115,2023-02-02,Curitiba
+116,2023-02-17,Curitiba
+117,2023-03-03,Belo Horizonte
+118,2023-08-04,Rio
+119,2023-10-20,Belo Horizonte
+120,2023-04-09,Curitiba
+121,2023-06-21,São Paulo
+122,2023-12-26,São Paulo
+123,2023-08-02,Belo Horizonte
+124,2023-02-04,Curitiba
+125,2023-08-15,São Paulo
+126,2023-04-11,Curitiba
+127,2023-05-11,Belo Horizonte
+128,2023-09-14,São Paulo
+129,2023-01-05,Curitiba
+130,2023-08-06,São Paulo
+131,2023-09-12,Belo Horizonte
+132,2023-12-25,Curitiba
+133,2023-10-10,São Paulo
+134,2023-07-26,Belo Horizonte
+135,2023-01-15,São Paulo
+136,2023-12-12,São Paulo
+137,2023-02-11,Rio
+138,2023-06-28,Rio
+139,2023-03-04,Belo Horizonte
+140,2023-12-18,Rio
+141,2023-08-19,Belo Horizonte
+142,2023-08-29,Rio
+143,2023-02-21,São Paulo
+144,2023-04-06,Belo Horizonte
+145,2023-08-10,Belo Horizonte
+146,2023-08-19,São Paulo
+147,2023-08-25,Belo Horizonte
+148,2023-05-23,Belo Horizonte
+149,2023-06-20,Rio
+150,2023-01-29,Belo Horizonte
+151,2023-02-05,Curitiba
+152,2023-01-13,São Paulo
+153,2023-06-09,Rio
+154,2023-11-23,Rio
+155,2023-07-06,Curitiba
+156,2023-08-31,São Paulo
+157,2023-03-27,São Paulo
+158,2023-10-11,Rio
+159,2023-03-07,Belo Horizonte
+160,2023-06-19,Rio
+161,2023-02-14,São Paulo
+162,2023-03-03,Curitiba
+163,2023-05-14,Rio
+164,2023-10-11,São Paulo
+165,2023-01-28,Rio
+166,2023-04-18,Belo Horizonte
+167,2023-02-13,Rio
+168,2023-12-06,Rio
+169,2023-10-13,São Paulo
+170,2023-11-27,São Paulo
+171,2023-05-08,São Paulo
+172,2023-12-14,Rio
+173,2023-08-19,Belo Horizonte
+174,2023-07-09,Curitiba
+175,2023-08-13,Curitiba
+176,2023-10-10,São Paulo
+177,2023-05-01,São Paulo
+178,2023-04-26,Rio
+179,2023-08-21,Curitiba
+180,2023-09-16,São Paulo
+181,2023-12-25,Belo Horizonte
+182,2023-07-17,Belo Horizonte
+183,2023-05-17,São Paulo
+184,2023-11-14,São Paulo
+185,2023-06-14,Curitiba
+186,2023-08-13,Curitiba
+187,2023-11-03,Rio
+188,2023-08-22,Curitiba
+189,2023-06-21,Belo Horizonte
+190,2023-06-01,Belo Horizonte
+191,2023-11-11,São Paulo
+192,2023-06-09,Curitiba
+193,2023-04-06,Rio
+194,2023-08-21,Belo Horizonte
+195,2023-06-29,Belo Horizonte
+196,2023-04-23,Rio
+197,2023-11-14,Rio
+198,2023-02-21,Belo Horizonte
+199,2023-09-25,Belo Horizonte
+200,2023-10-22,Rio
+201,2023-04-23,Belo Horizonte
+202,2023-04-11,São Paulo
+203,2023-04-23,São Paulo
+204,2023-03-22,Rio
+205,2023-07-06,Curitiba
+206,2023-04-23,Rio
+207,2023-01-02,Rio
+208,2023-05-10,Curitiba
+209,2023-08-08,Curitiba
+210,2023-02-23,Curitiba
+211,2023-12-09,São Paulo
+212,2023-08-12,Belo Horizonte
+213,2023-08-13,São Paulo
+214,2023-05-06,Belo Horizonte
+215,2023-05-10,São Paulo
+216,2023-02-22,Belo Horizonte
+217,2023-06-21,São Paulo
+218,2023-08-06,Curitiba
+219,2023-06-09,Rio
+220,2023-07-17,São Paulo
+221,2023-09-04,Belo Horizonte
+222,2023-11-20,Curitiba
+223,2023-07-22,São Paulo
+224,2023-07-03,São Paulo
+225,2023-05-03,Curitiba
+226,2023-09-12,São Paulo
+227,2023-10-21,Rio
+228,2023-10-07,São Paulo
+229,2023-11-21,Rio
+230,2023-04-08,Rio
+231,2023-07-17,Curitiba
+232,2023-08-28,São Paulo
+233,2023-05-24,Curitiba
+234,2023-04-07,São Paulo
+235,2023-07-20,São Paulo
+236,2023-05-04,Belo Horizonte
+237,2023-07-06,São Paulo
+238,2023-11-22,Curitiba
+239,2023-12-15,Rio
+240,2023-09-16,São Paulo
+241,2023-05-28,Belo Horizonte
+242,2023-09-09,Curitiba
+243,2023-12-12,São Paulo
+244,2023-05-27,Curitiba
+245,2023-05-28,Belo Horizonte
+246,2023-12-18,Belo Horizonte
+247,2023-07-18,Curitiba
+248,2023-11-04,São Paulo
+249,2023-05-08,Rio
+250,2023-02-08,Belo Horizonte
+251,2023-12-04,São Paulo
+252,2023-12-26,São Paulo
+253,2023-05-09,Rio
+254,2023-09-24,Belo Horizonte
+255,2023-05-31,Belo Horizonte
+256,2023-10-25,São Paulo
+257,2023-04-09,São Paulo
+258,2023-09-20,Rio
+259,2023-09-09,Rio
+260,2023-05-24,Belo Horizonte
+261,2023-12-12,Curitiba
+262,2023-04-22,Belo Horizonte
+263,2023-03-01,São Paulo
+264,2023-01-02,Belo Horizonte
+265,2023-10-31,Curitiba
+266,2023-09-11,Rio
+267,2023-05-20,Curitiba
+268,2023-02-06,Curitiba
+269,2023-06-09,Curitiba
+270,2023-01-09,Rio
+271,2023-08-21,Curitiba
+272,2023-04-09,Curitiba
+273,2023-05-27,Curitiba
+274,2023-10-31,São Paulo
+275,2023-07-27,Curitiba
+276,2023-05-11,Rio
+277,2023-06-01,Curitiba
+278,2023-02-23,Curitiba
+279,2023-04-30,Rio
+280,2023-06-10,Curitiba
+281,2023-04-26,Rio
+282,2023-03-16,Curitiba
+283,2023-04-23,Rio
+284,2023-04-14,Curitiba
+285,2023-12-06,Curitiba
+286,2023-09-11,São Paulo
+287,2023-08-15,São Paulo
+288,2023-04-22,Curitiba
+289,2023-04-09,Curitiba
+290,2023-06-02,Belo Horizonte
+291,2023-12-15,Rio
+292,2023-12-04,Belo Horizonte
+293,2023-07-13,São Paulo
+294,2023-11-06,São Paulo
+295,2023-06-12,São Paulo
+296,2023-07-27,São Paulo
+297,2023-06-18,Curitiba
+298,2023-06-10,São Paulo
+299,2023-03-09,Curitiba
+300,2023-10-16,Curitiba
+301,2023-10-04,São Paulo
+302,2023-10-31,São Paulo
+303,2023-05-15,Rio
+304,2023-07-14,Belo Horizonte
+305,2023-05-08,São Paulo
+306,2023-02-02,Rio
+307,2023-06-25,Rio
+308,2023-01-22,Belo Horizonte
+309,2023-08-26,Curitiba
+310,2023-06-07,São Paulo
+311,2023-02-07,Belo Horizonte
+312,2023-08-18,São Paulo
+313,2023-12-31,Rio
+314,2023-02-20,Rio
+315,2023-09-21,Curitiba
+316,2023-10-10,Rio
+317,2023-01-27,Rio
+318,2023-08-14,Belo Horizonte
+319,2023-10-04,São Paulo
+320,2023-10-13,São Paulo
+321,2023-04-07,Belo Horizonte
+322,2023-10-11,Curitiba
+323,2023-11-13,São Paulo
+324,2023-10-31,Rio
+325,2023-05-27,São Paulo
+326,2023-01-04,Rio
+327,2023-02-04,Curitiba
+328,2023-07-11,Belo Horizonte
+329,2023-02-18,São Paulo
+330,2023-01-17,Belo Horizonte
+331,2023-06-21,São Paulo
+332,2023-08-08,Rio
+333,2023-06-07,Belo Horizonte
+334,2023-02-15,São Paulo
+335,2023-01-06,Rio
+336,2023-04-09,Belo Horizonte
+337,2023-08-21,Belo Horizonte
+338,2023-02-06,São Paulo
+339,2023-10-07,São Paulo
+340,2023-12-15,São Paulo
+341,2023-10-29,Rio
+342,2023-06-30,São Paulo
+343,2023-04-05,Belo Horizonte
+344,2023-04-09,Belo Horizonte
+345,2023-07-07,São Paulo
+346,2023-04-26,São Paulo
+347,2023-07-10,Curitiba
+348,2023-09-10,Belo Horizonte
+349,2023-06-10,Rio
+350,2023-09-13,Curitiba
+351,2023-11-19,São Paulo
+352,2023-05-08,São Paulo
+353,2023-01-18,Belo Horizonte
+354,2023-10-08,São Paulo
+355,2023-08-11,Rio
+356,2023-02-23,Belo Horizonte
+357,2023-02-27,São Paulo
+358,2023-11-19,Belo Horizonte
+359,2023-12-26,São Paulo
+360,2023-06-23,São Paulo
+361,2023-10-07,São Paulo
+362,2023-04-24,Rio
+363,2023-10-15,Rio
+364,2023-12-08,Belo Horizonte
+365,2023-05-31,São Paulo
+366,2023-05-07,São Paulo
+367,2023-06-04,Rio
+368,2023-09-30,São Paulo
+369,2023-04-14,Rio
+370,2023-10-26,São Paulo
+371,2023-09-03,Belo Horizonte
+372,2023-06-25,São Paulo
+373,2023-02-08,São Paulo
+374,2023-06-19,Curitiba
+375,2023-09-04,Rio
+376,2023-01-26,São Paulo
+377,2023-12-21,São Paulo
+378,2023-11-02,Curitiba
+379,2023-01-13,Curitiba
+380,2023-11-12,Rio
+381,2023-11-09,Curitiba
+382,2023-02-05,Belo Horizonte
+383,2023-06-22,Curitiba
+384,2023-01-20,Belo Horizonte
+385,2023-11-17,Rio
+386,2023-09-21,Rio
+387,2023-05-22,Rio
+388,2023-05-23,Rio
+389,2023-04-02,Rio
+390,2023-12-20,Belo Horizonte
+391,2023-11-18,Belo Horizonte
+392,2023-10-15,Rio
+393,2023-08-03,Curitiba
+394,2023-12-08,São Paulo
+395,2023-02-20,Rio
+396,2023-06-02,Curitiba
+397,2023-07-05,São Paulo
+398,2023-03-04,Rio
+399,2023-07-09,Rio
+400,2023-05-05,Belo Horizonte
+401,2023-05-30,São Paulo
+402,2023-11-10,São Paulo
+403,2023-02-27,Curitiba
+404,2023-12-08,Belo Horizonte
+405,2023-11-01,Belo Horizonte
+406,2023-06-29,Belo Horizonte
+407,2023-06-19,Belo Horizonte
+408,2023-11-22,São Paulo
+409,2023-09-28,São Paulo
+410,2023-02-23,Rio
+411,2023-04-11,Rio
+412,2023-09-21,Belo Horizonte
+413,2023-02-22,Belo Horizonte
+414,2023-03-01,Belo Horizonte
+415,2023-04-18,Rio
+416,2023-01-05,Curitiba
+417,2023-04-13,Curitiba
+418,2023-07-15,Rio
+419,2023-09-19,Rio
+420,2023-12-31,Rio
+421,2023-12-16,Rio
+422,2023-02-16,Rio
+423,2023-12-21,Rio
+424,2023-11-07,Belo Horizonte
+425,2023-11-04,Belo Horizonte
+426,2023-05-24,Belo Horizonte
+427,2023-09-26,Belo Horizonte
+428,2023-05-04,Rio
+429,2023-04-16,Curitiba
+430,2023-06-07,São Paulo
+431,2023-05-27,Rio
+432,2023-05-25,São Paulo
+433,2023-04-30,Curitiba
+434,2023-11-15,Belo Horizonte
+435,2023-10-02,Curitiba
+436,2023-04-02,Rio
+437,2023-02-27,Belo Horizonte
+438,2023-12-12,Rio
+439,2023-08-17,Belo Horizonte
+440,2023-04-27,São Paulo
+441,2023-11-14,São Paulo
+442,2023-10-06,São Paulo
+443,2023-05-07,Curitiba
+444,2023-05-09,Rio
+445,2023-02-27,Curitiba
+446,2023-05-02,São Paulo
+447,2023-01-01,Rio
+448,2023-08-27,São Paulo
+449,2023-10-17,Curitiba
+450,2023-04-06,Curitiba
+451,2023-05-06,Curitiba
+452,2023-04-28,São Paulo
+453,2023-02-17,Rio
+454,2023-03-30,Rio
+455,2023-08-25,São Paulo
+456,2023-09-29,Rio
+457,2023-07-08,São Paulo
+458,2023-07-11,Rio
+459,2023-03-10,Belo Horizonte
+460,2023-10-05,Belo Horizonte
+461,2023-12-15,Curitiba
+462,2023-09-04,Belo Horizonte
+463,2023-03-17,Belo Horizonte
+464,2023-06-03,Belo Horizonte
+465,2023-05-24,São Paulo
+466,2023-03-27,Belo Horizonte
+467,2023-07-04,Belo Horizonte
+468,2023-10-12,Curitiba
+469,2023-08-08,Belo Horizonte
+470,2023-03-10,Belo Horizonte
+471,2023-02-16,Rio
+472,2023-04-04,Curitiba
+473,2023-08-26,Curitiba
+474,2023-07-23,Curitiba
+475,2023-08-06,Curitiba
+476,2023-12-07,Curitiba
+477,2023-02-08,Curitiba
+478,2023-04-10,São Paulo
+479,2023-10-16,Belo Horizonte
+480,2023-09-11,Curitiba
+481,2023-08-10,Belo Horizonte
+482,2023-12-23,Belo Horizonte
+483,2023-01-23,São Paulo
+484,2023-09-07,Curitiba
+485,2023-01-10,Rio
+486,2023-09-03,São Paulo
+487,2023-11-21,Rio
+488,2023-04-10,Belo Horizonte
+489,2023-10-17,Belo Horizonte
+490,2023-06-29,São Paulo
+491,2023-08-11,São Paulo
+492,2023-09-07,Rio
+493,2023-05-27,Curitiba
+494,2023-04-06,Rio
+495,2023-09-14,São Paulo
+496,2023-11-21,Rio
+497,2023-01-04,São Paulo
+498,2023-01-16,Rio
+499,2023-10-07,São Paulo
+500,2023-12-02,São Paulo
