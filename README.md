@@ -1,4 +1,4 @@
-# 📊 Ecommerce Fraud Detection Pipeline
+# 📊 Ecommerce Fraud Detection Pipeline 
 
 This repository demonstrates a complete data engineering lifecycle for fraud prevention. It goes beyond simple analysis, implementing a robust **ETL pipeline** orchestrated by **Apache Airflow** to identify anomalous patterns in a simulated e-commerce environment.
 
@@ -8,15 +8,15 @@ This repository demonstrates a complete data engineering lifecycle for fraud pre
 
 The project is structured into two main modules to reflect real-world production environments:
 
-- **`fraud-analysis-lab/`**: Initial exploratory data analysis, where statistical thresholds and fraud rules were defined.
+- **`fraud-analysis-lab/`**: Initial exploratory data analysis where fraud rules and behavioral thresholds were defined.
 - **`fraud-automation-engine/`**: The production-ready version featuring:
-    - **Extraction:** Data retrieval from a PostgreSQL transactional database.
-    - **Transformation:** Statistical anomaly detection using Python (Pandas) and SQL.
+    - **Extraction:** Automated data retrieval from a PostgreSQL transactional database.
+    - **Transformation:** Behavioral anomaly detection using Python (Pandas) and SQL.
     - **Loading:** Persistent alert generation in dedicated database tables and audit logs.
 
 ### Key Fraud Patterns Detected:
-- **Burst Transactions:** Abnormal spikes in purchases by the same user within a single day.
-- **Shared Device Usage:** Multiple users associated with the same device beyond a statistical threshold.
+- **Burst Transactions:** Identification of abnormal purchase spikes by the same user within a single day.
+- **Shared Device Usage:** Detection of multiple accounts linked to a single device based on behavioral outliers.
 
 ---
 
@@ -31,15 +31,15 @@ The project is structured into two main modules to reflect real-world production
 
 ## ⚙️ Automation & Pipeline Features
 
-- **Hourly Orchestration:** The pipeline is scheduled to run every hour, ensuring near real-time risk monitoring.
-- **Statistical Thresholding:** Dynamic detection based on standard deviation, avoiding hard-coded limits and adapting to data behavior.
-- **Dual-Alert System:** Simultaneous output to PostgreSQL `fraud_alerts` table for system integration and `.log` files for manual auditing.
+- **Hourly Orchestration:** The pipeline is scheduled to run every hour, ensuring frequent and automated risk monitoring.
+- **Dynamic Thresholding:** Detection logic that adapts to data behavior to identify outliers instead of using fixed/hard-coded limits.
+- **Dual-Alert System:** Simultaneous output to a PostgreSQL `fraud_alerts` table for system integration and `.log` files for manual auditing.
 
 ---
 
 ## 🎯 Skills Demonstrated
 
-- **Data Engineering:** Building ETL pipelines and managing database connections.
-- **DevOps/Infra:** Containerization with Docker and environment orchestration.
-- **Statistical Analysis:** Applying $Z$-score logic for outlier detection.
-- **Analytical Reasoning:** Mapping business fraud rules into automated technical solutions.
+- **Data Engineering:** Building end-to-end ETL pipelines and managing database connections.
+- **DevOps/Infra:** Containerization with Docker and environment orchestration for data workflows.
+- **Fraud Detection:** Mapping e-commerce business rules into automated technical solutions.
+- **Problem Solving:** Implementing logic to transform raw transactional data into actionable security flags.
