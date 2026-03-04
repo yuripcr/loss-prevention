@@ -1,4 +1,4 @@
-# 📊 Ecommerce Fraud Detection Pipeline (ETL & Orchestration)
+# 📊 Ecommerce Fraud Detection Pipeline
 
 This repository demonstrates a complete data engineering lifecycle for fraud prevention. It goes beyond simple analysis, implementing a robust **ETL pipeline** orchestrated by **Apache Airflow** to identify anomalous patterns in a simulated e-commerce environment.
 
@@ -8,7 +8,7 @@ This repository demonstrates a complete data engineering lifecycle for fraud pre
 
 The project is structured into two main modules to reflect real-world production environments:
 
-- **`fraud-analysis-lab/`**: Initial exploratory data analysis (PoC), where statistical thresholds and fraud rules were defined.
+- **`fraud-analysis-lab/`**: Initial exploratory data analysis, where statistical thresholds and fraud rules were defined.
 - **`fraud-automation-engine/`**: The production-ready version featuring:
     - **Extraction:** Data retrieval from a PostgreSQL transactional database.
     - **Transformation:** Statistical anomaly detection using Python (Pandas) and SQL.
@@ -16,7 +16,7 @@ The project is structured into two main modules to reflect real-world production
 
 ### Key Fraud Patterns Detected:
 - **Burst Transactions:** Abnormal spikes in purchases by the same user within a single day.
-- **Shared Device Usage:** Multiple users associated with the same device beyond a statistical threshold ($Mean + 3 \times StdDev$).
+- **Shared Device Usage:** Multiple users associated with the same device beyond a statistical threshold.
 
 ---
 
@@ -32,7 +32,6 @@ The project is structured into two main modules to reflect real-world production
 ## ⚙️ Automation & Pipeline Features
 
 - **Hourly Orchestration:** The pipeline is scheduled to run every hour, ensuring near real-time risk monitoring.
-- **Scalable Architecture:** Use of Docker volumes to separate responsibilities between source code (`src/`), infrastructure (`setup/`), and raw data (`data/`).
 - **Statistical Thresholding:** Dynamic detection based on standard deviation, avoiding hard-coded limits and adapting to data behavior.
 - **Dual-Alert System:** Simultaneous output to PostgreSQL `fraud_alerts` table for system integration and `.log` files for manual auditing.
 
