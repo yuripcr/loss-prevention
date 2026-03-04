@@ -1,34 +1,46 @@
-# 📊 Fraud Detection Simulation (Python + PostgreSQL)
+# 📊 Ecommerce Fraud Detection Pipeline (ETL & Orchestration)
 
-This repository contains a data analysis project developed using Python and PostgreSQL, focused on anomaly detection in a simulated e-commerce environment. The project reproduces realistic fraud patterns and applies statistical techniques to identify suspicious behavior.
+This repository demonstrates a complete data engineering lifecycle for fraud prevention. It goes beyond simple analysis, implementing a robust **ETL pipeline** orchestrated by **Apache Airflow** to identify anomalous patterns in a simulated e-commerce environment.
 
 ---
 
-## 📁 Project Overview
+## 📁 Project Architecture
 
-### Fraud Detection Simulation
-Simulation of an e-commerce transactional dataset with synthetic data generation and anomaly detection techniques.
+The project is structured into two main modules to reflect real-world production environments:
 
-The project identifies two types of suspicious behavior:
+- **`fraud-analysis-lab/`**: Initial exploratory data analysis (PoC), where statistical thresholds and fraud rules were defined.
+- **`fraud-automation-engine/`**: The production-ready version featuring:
+    - **Extraction:** Data retrieval from a PostgreSQL transactional database.
+    - **Transformation:** Statistical anomaly detection using Python (Pandas) and SQL.
+    - **Loading:** Persistent alert generation in dedicated database tables and audit logs.
 
-- **Burst transactions:** abnormal spike in purchases by the same user within a single day.
-- **Shared device usage:** multiple users associated with the same device beyond a statistical threshold.
+### Key Fraud Patterns Detected:
+- **Burst Transactions:** Abnormal spikes in purchases by the same user within a single day.
+- **Shared Device Usage:** Multiple users associated with the same device beyond a statistical threshold ($Mean + 3 \times StdDev$).
 
-The detection logic is implemented both in Python (Pandas) and PostgreSQL (SQL with CTEs and statistical functions) to demonstrate analytical consistency across tools.
-
-**Skills:** Python, Pandas, SQL, PostgreSQL, data aggregation, groupby operations, COUNT DISTINCT, CTEs, statistical analysis (mean & standard deviation), anomaly detection, analytical reasoning.
+---
 
 ## 🛠️ Tools & Technologies
 
-- Python
-- Pandas
-- PostgreeSQL
-- SQL
+- **Language:** Python (Pandas, SQLAlchemy)
+- **Database:** PostgreSQL (Relational storage & Analytical queries)
+- **Orchestration:** Apache Airflow (DAGs, PythonOperators, Scheduling)
+- **Infrastructure:** Docker & Docker Compose (Containerization of the entire stack)
 
 ---
 
-## 🎯 About
+## ⚙️ Automation & Pipeline Features
 
-This project was developed to simulate a real-world fraud detection scenario and demonstrate the application of statistical thresholds for anomaly detection.
+- **Hourly Orchestration:** The pipeline is scheduled to run every hour, ensuring near real-time risk monitoring.
+- **Scalable Architecture:** Use of Docker volumes to separate responsibilities between source code (`src/`), infrastructure (`setup/`), and raw data (`data/`).
+- **Statistical Thresholding:** Dynamic detection based on standard deviation, avoiding hard-coded limits and adapting to data behavior.
+- **Dual-Alert System:** Simultaneous output to PostgreSQL `fraud_alerts` table for system integration and `.log` files for manual auditing.
 
-It highlights the ability to generate synthetic datasets, perform exploratory data analysis, and reproduce analytical logic consistently across Python and SQL environments.
+---
+
+## 🎯 Skills Demonstrated
+
+- **Data Engineering:** Building ETL pipelines and managing database connections.
+- **DevOps/Infra:** Containerization with Docker and environment orchestration.
+- **Statistical Analysis:** Applying $Z$-score logic for outlier detection.
+- **Analytical Reasoning:** Mapping business fraud rules into automated technical solutions.

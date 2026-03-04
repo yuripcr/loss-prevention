@@ -1,0 +1,42 @@
+
+=== ALERTA 2026-03-04 21:00:03.078504 ===
+Dispositivos suspeitos:
+     device_id  unique_users
+398        399            14
+611        612            14
+
+Usuários com pico de compras:
+      user_id   order_day  orders_per_day
+1017      105  2024-06-01              20
+1510      154  2024-01-25               3
+2178      225  2024-04-11               3
+3902      405  2024-03-02               3
+=========================
+
+=== ALERTA 2026-03-04 21:00:03.077285 ===
+Dispositivos suspeitos:
+     device_id  unique_users
+398        399            14
+611        612            14
+
+Usuários com pico de compras:
+      user_id   order_day  orders_per_day
+1017      105  2024-06-01              20
+1510      154  2024-01-25               3
+2178      225  2024-04-11               3
+3902      405  2024-03-02               3
+=========================
+
+=== ALERTA 2026-03-04 21:00:34.840609 ===
+Dispositivos suspeitos:
+     device_id  unique_users
+398        399            14
+611        612            14
+
+Usuários com pico de compras:
+      user_id   order_day  orders_per_day
+1017      105  2024-06-01              20
+1510      154  2024-01-25               3
+2178      225  2024-04-11               3
+3902      405  2024-03-02               3
+=========================
