@@ -1,6 +1,11 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Docker](https://img.shields.io/badge/Docker-Ready-lightgrey)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
+![Airflow](https://img.shields.io/badge/Airflow-2.10-blue)
+
 # 📊 Ecommerce Fraud Detection Pipeline 
 
-This repository demonstrates a complete data engineering lifecycle for fraud prevention. It goes beyond simple analysis, implementing a robust **ETL pipeline** orchestrated by **Apache Airflow** to identify anomalous patterns in a simulated e-commerce environment.
+Complete data engineering lifecycle for fraud prevention, featuring a robust ETL pipeline orchestrated with Apache Airflow to detect anomalous patterns in a simulated e-commerce environment.
 
 ---
 
@@ -15,7 +20,7 @@ The project is structured into two main modules to reflect real-world production
     - **Loading:** Persistent alert generation in dedicated database tables and audit logs.
 
 ### Key Fraud Patterns Detected:
-- **Burst Transactions:** Identification of abnormal purchase spikes by the same user within a single day.
+- **Burst Transactions:** : Detection of abnormal purchase spikes by the same user within a single day.
 - **Shared Device Usage:** Detection of multiple accounts linked to a single device based on behavioral outliers.
 
 ---
